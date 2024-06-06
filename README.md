@@ -151,14 +151,14 @@ Learning HTML, CSS, Javascript, React, Node, and Web3 development. Master front-
   - [JavaScript.info](https://javascript.info/)
 
 - **React:**
-  - [React Official Documentation](https://reactjs.org/docs/getting-started.html)
+  - [React Official Documentation](https://react.dev/learn)
   - [React Tutorial - Scrimba](https://scrimba.com/learn/learnreact)
 
 - **Node.js & Express.js:**
   - [Node.js Official Documentation](https://nodejs.org/en/docs/)
   - [Express.js: Getting Started Guide](https://expressjs.com/en/starter/installing.html)
   - [Express.js Official Documentation](https://expressjs.com/)
-    - [Axios Documentation](https://axios-http.com/docs/intro)
+  - [Axios Documentation](https://axios-http.com/docs/intro)
 
 - **Postgres:**
   - [Postgres Documentation](https://www.postgresql.org/docs/current/index.html)
@@ -166,7 +166,7 @@ Learning HTML, CSS, Javascript, React, Node, and Web3 development. Master front-
 
 - **More Resources:**
     - [Public API List](https://github.com/appbrewery/public-api-lists)
-    - [Open Library *(covers API)*](https://openlibrary.org/dev/docs/api/covers)
+    - [Open Library Covers API](https://openlibrary.org/dev/docs/api/covers)
     - [More free APIs](https://rapidapi.com/collection/list-of-free-apis)
 
 ## Milestones
