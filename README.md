@@ -4,6 +4,8 @@ Repository created to record and track my progress in Angela Yu’s *Complete 20
 
 I’ll attempt to study at least 6 hours a day alongside a Discord Study Group while taking a deliberate lean tech approach to thoroughly comprehend the content and related materials.
 
+*-v.0.04*
+
 [^§§]: *[The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp) created by Dr. Angela Yu (Udemy).*
 
 
