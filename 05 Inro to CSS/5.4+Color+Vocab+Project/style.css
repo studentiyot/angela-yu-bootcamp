@@ -3,7 +3,10 @@ img {
   width: 200px;
 }
 
-#red {
+.color-title {
+  font-weight: normal;
+
+}#red {
   color: red;
 }
 
@@ -19,10 +22,8 @@ img {
   color: green;
 }
 
-#yellow {
+#yellow { 
   color: yellow;
 }
 
-.color-title {
-  font-weight: normal;
-}
+
