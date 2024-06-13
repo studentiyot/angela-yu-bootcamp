@@ -1,8 +1,20 @@
 /* Don't change the existing CSS. */
+/* √ Make sure the "White Text" is white. */
+/* √ how the "White Text" inside a red <div>. */
+/* √ The enclosing <div> should be purple. */
+/* There should be 10px of padding around the borders. */
+
+#outer-box {
+  border: 10px solid purple; 
+}
 
 .box {
   background-color: blue;
   padding: 10px;
+}
+
+.inner-box {
+  background: red;
 }
 
 p {
@@ -10,3 +22,10 @@ p {
   margin: 0;
   padding: 0;
 }
+
+
+
+.white-text {
+  color: white;
+}
+
