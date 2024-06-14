@@ -6,8 +6,42 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 .main {
   flex: 1;
+}
+
+.body {
+  display: flex;
+}
+
+.left.card {
+  background-color: faf9f6;
+  display: inline-block;
+  flex: 1;
+}
+
+.right.card {
+  background-color: faf9f6;
+  display: inline-block;
+  flex: 1;
+}
+
+p {
+  margin: 0px 200px 50px 0px;
+}
+
+#callout {
+  color: #191970;
+}
+
+img {
+  width: 220px;
+}
+
+.tile-image {
+  float: left;
+  padding: 25px;
 }
 
 h1 {
