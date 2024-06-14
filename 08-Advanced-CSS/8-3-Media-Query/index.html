@@ -17,6 +17,34 @@ TODO: Change the background color for each device
     body {
       background-color: aquamarine;
     }
+
+    /* mobile devices: 319px–480px */
+    @media (max-width: 480px) { 
+	    body { 
+		    background-color: lightsalmon;
+	    }
+    } 
+
+    /* iPads and Tablets: 481px–1200px */
+    @media (min-width: 481px) and (max-width: 1200px) { 
+	    body { 
+		    background-color: powderblue;
+	    }
+    } 
+
+    /* Laptops: 1201px–1600px */
+    @media (min-width: 1201px) and (max-width: 1600px) { 
+	    body { 
+		    background-color: limegreen;
+	    }
+    } 
+
+    /* Desktops and larger screens: 1601px+  */
+    @media (min-width: 1601px) { 
+	    body { 
+		    background-color: seagreen;
+	    }
+    } 
   </style>
 </head>
 
