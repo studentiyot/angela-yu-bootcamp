@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Method</title>
+
+  <style>
+
+    body {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      border: 3px solid white;
+      padding: 20px;
+      width: 500px;
+      height: 300px;
+ }
+
+    .green {
+      background-color: green;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .purple {
+      background-color: purple;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="grid-container">
+
+    <div class="grid-child purple">
+        Grid Column 1
+    </div>
+
+    <div class="grid-child green">
+        Grid Column 2
+    </div>
+  
+</div>
+  
+</body>
+</html>
