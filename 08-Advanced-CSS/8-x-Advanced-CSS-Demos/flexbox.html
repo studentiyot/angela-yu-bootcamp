@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Method</title>
+  <style>
+
+    body {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .flex-container {
+      flex-direction: row;
+      display: flex;
+      border: 3px solid white;
+      padding: 20px;
+      width: 500px;
+      height: 300px;
+    }
+
+    .flex-child {
+      flex: 1;
+      padding: 20px;
+      border: 2px solid yellow;
+      border-radius: 10px;
+
+    }  
+
+    .flex-child:first-child {
+      margin-right: 20px;
+    } 
+
+    .magenta {
+      background-color: hsl(331, 67%, 41%);
+    }
+
+    .green {
+      background-color: hsl(148, 68%, 25%);
+    }
+  </style>
+
+</head>
+
+<body>
+  
+  <div class="flex-container">
+
+    <div class="flex-child magenta">
+      Flex Column 1
+    </div>
+    
+    <div class="flex-child green">
+      Flex Column 2
+    </div>
+    
+  </div>
+
+
+</body>
+</html>
