@@ -1,0 +1,77 @@
+body {
+  background-color: rgba(46, 32, 32, 0.734);
+  color: hsl(0, 17%, 5%);
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 20px; */
+}
+
+hr {
+margin: 50px;
+}
+
+.container {
+  display: flex;
+  background-color: #343135;
+  border: 3px solid white;
+}
+
+.one {
+  height: 400px;
+  flex-direction: row;        
+  /* justify-content:; — Always on main axis */     
+  justify-content: space-between;  
+  /* align-items:; — Always on the cross axis */
+  align-items: center;             
+}
+
+.two {
+  height: 100%;
+  /* flex-direction: column; */
+  /* justify-content:; — Always on main axis */     
+  /* justify-content: space-between;   */
+  /* align-items:; — Always on the cross axis */
+  /* align-items: center;              */
+  /* flex-wrap: wrap; */
+}
+
+.child {
+  flex: 1 0 0;
+  height: 100px;
+  background-color: #ffb804;
+  margin: 10px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one > .child:nth-of-type(1) {
+  align-self: start;
+}
+
+.one > .child:nth-of-type(2) {
+  align-self: center;
+}
+
+.one > .child:nth-of-type(3) {
+  align-self: end;
+}
+
+.two > .child:nth-of-type(1) {
+  /* align-self: start; */
+  /* flex-grow: .5; */
+}
+
+.two > .child:nth-of-type(2) {
+  /* align-self: center; */
+  /* flex-grow: 1.5; */
+}
+
+.two > .child:nth-of-type(3) {
+  /* align-self: end; */
+  /* flex-grow: 1.5; */
+} 
+
+
+
