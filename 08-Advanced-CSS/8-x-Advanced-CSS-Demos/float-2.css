@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.float-container {
+  border: 3px solid white;
+  padding: 20px;
+  width: 500px;
+  height: 150px;
+}
+
+
+.float-child {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}  
+
+.green {
+  background-color: #146a3b;
+  padding: 20px;
+  height: 70px;
+  border-radius: 10px;
+
+}
+
+.blue {
+  background-color: #0762c7;
+  padding: 20px;
+  height: 70px;
+  border-radius: 10px;
+}
+
