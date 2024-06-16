@@ -5,7 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Column Layout Methods</title>
+
   <style>
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      
+    }
+
     p {
       padding: 0;
       margin: 0;
@@ -14,26 +27,44 @@
 
     li {
       list-style: none;
+      font-weight: bold;
+      /* border: 1px dotted red; */
+      /* flex-basis: 400px; */
+
     }
 
-    .container {
-      padding: 10px;
+   .container,
+   .nav {
       background-color: gold;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      gap: 10px;
+      /* justify-content: start; */
+      /* justify-content: end; */
+      /* justify-content: center; */
+      justify-content: space-between;
+      /* justify-content: space-around;       */
     }
 
   </style>
+
 </head>
 
 <body>
   <div class="container">
     <p>Page Layout Methods</p>
-
-    <li><a href="./html-table.html">HTML Table</a></li>
-    <li><a href="./inline-block.html">Inline-Block</li>
-    <li><a href="./absolute-position.html">Absolute Positioning</li>
-    <li><a href="./float.html">Float</li>
-    <li><a href="./flex.html">Flexbox</li>
-
+      <ul class="nav">
+        <li><a href="./html-table.html">HTML Table</a></li>
+        <li>|</li>
+        <li><a href="./inline-block.html">Inline-Block</a></li>
+        <li>|</li>
+        <li><a href="./absolute-position.html">Absolute Positioning</a></li>
+        <li>|</li>
+        <li><a href="./float.html">Float</a></li>
+        <li>|</li>
+        <li><a href="./flex.html">Flexbox</a></li>
+      </ul>
   </div>
 </body>
 
